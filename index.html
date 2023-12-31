@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
-    <title>2023 새해맞이</title>
-    <meta name="title" content="2023 새해맞이">
+    <title>2024 새해맞이</title>
+    <meta name="title" content="2024 새해맞이">
     <meta name="author" content="뀨앙지윤">
-    <meta property="og:title" content="2023 새해맞이" />
-    <meta property="og:description" content="2023년도 행복한 한해 되세요!" />
+    <meta property="og:title" content="2024 새해맞이" />
+    <meta property="og:description" content="2024년도 행복한 한해 되세요!" />
 </head>
 
 <style>
@@ -100,7 +100,7 @@
 <script>
     function timedif() {
         date1 = new Date()
-        date2 = new Date(2023, 00, 01, 00, 00)
+        date2 = new Date(2024, 00, 01, 00, 00)
         var elapsedMSec = date2.getTime() - date1.getTime();
         var elapsedDay = elapsedMSec / 1000 / 60 / 60 / 24;
         var elapsedHou = (elapsedMSec / 1000 / 60 / 60) % 24;
@@ -139,7 +139,7 @@
             ymd.innerHTML = `${y}년 ${mon}월 ${day}일`;
             hms.innerHTML = `${h}:${m}:${s}`;
 
-            $('#dif').html(`2023년까지<br>${timedif()}<br>남았습니다.`)
+            $('#dif').html(`2024년까지<br>${timedif()}<br>남았습니다.`)
             $('#backg').css('background-image', `url('img/${m % 11}.jpg')`)
 
 
