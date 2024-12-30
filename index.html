@@ -100,7 +100,7 @@
 <script>
     function timedif() {
         date1 = new Date()
-        date2 = new Date(2024, 00, 01, 00, 00)
+        date2 = new Date(2025, 00, 01, 00, 00)
         var elapsedMSec = date2.getTime() - date1.getTime();
         var elapsedDay = elapsedMSec / 1000 / 60 / 60 / 24;
         var elapsedHou = (elapsedMSec / 1000 / 60 / 60) % 24;
@@ -139,7 +139,7 @@
             ymd.innerHTML = `${y}년 ${mon}월 ${day}일`;
             hms.innerHTML = `${h}:${m}:${s}`;
 
-            $('#dif').html(`2024년까지<br>${timedif()}<br>남았습니다.`)
+            $('#dif').html(`2025년까지<br>${timedif()}<br>남았습니다.`)
             $('#backg').css('background-image', `url('img/${m % 10}.jpg')`)
 
 
